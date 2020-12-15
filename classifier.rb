@@ -17,6 +17,7 @@ size_limit.times do
       :meats,
       :vegetables,
       :conjunction,
+      :personal_pronouns,
   )
 
   # Train the genders.
@@ -210,6 +211,14 @@ size_limit.times do
   a.train(:conjunction,           "aviesi",           "conjunction")
   a.train(:conjunction,              "ini",           "conjunction")
   a.train(:conjunction,              "uta",           "conjunction")
+  
+  a.train(:personal_pronouns,         "tu",      "personal_pronouns")
+  a.train(:personal_pronouns,     "viyosa",      "personal_pronouns")
+  a.train(:personal_pronouns,       "niyo",      "personal_pronouns")
+  a.train(:personal_pronouns,        "iye",      "personal_pronouns")
+  a.train(:personal_pronouns,        "eye",      "personal_pronouns")
+  a.train(:personal_pronouns,      "iyese",      "personal_pronouns")
+  a.train(:personal_pronouns,      "eyese",      "personal_pronouns")
 
   b = strings[number]
 
