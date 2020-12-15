@@ -2,7 +2,7 @@
 A tool for classify each Hafestran word individually. Conjunctions are out of date, and I need to replace them with the most current ones.
 
 ## Hafestran Index is here.
-[Ancient Hafestran](https://hafestrahandbook.glitch.me/)
+[Ancient Hafestran](https://hafestrahandbook.glitch.me/)<br />
 [Late Hafestran](https://waa.ai/tUWm)<br />
 [Distant Future Hafestran](https://write.freethinkers.lgbt/learn-hafestran-conlang/)
 
