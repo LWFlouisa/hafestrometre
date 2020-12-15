@@ -21,6 +21,9 @@ wa wi wu we wo wy
 ya yi yu ye yo yy
 </pre>
 
+### Writing System
+To be fleshed out.
+
 ### Personal Pronouns
 <pre>
 Tu - You (informal)
