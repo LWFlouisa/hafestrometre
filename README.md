@@ -199,6 +199,15 @@ A tool for classify each Hafestran word individually. Conjunctions are out of da
   a.train(:conjunction,           "aviesi",           "conjunction")
   a.train(:conjunction,              "ini",           "conjunction")
   a.train(:conjunction,              "uta",           "conjunction")
+  
+  # Personal Pronouns
+  a.train(:personal_pronouns,         "tu",      "personal_pronouns")
+  a.train(:personal_pronouns,     "viyosa",      "personal_pronouns")
+  a.train(:personal_pronouns,       "niyo",      "personal_pronouns")
+  a.train(:personal_pronouns,        "iye",      "personal_pronouns")
+  a.train(:personal_pronouns,        "eye",      "personal_pronouns")
+  a.train(:personal_pronouns,      "iyese",      "personal_pronouns")
+  a.train(:personal_pronouns,      "eyese",      "personal_pronouns")
 ~~~
 
 ## Other Developments
