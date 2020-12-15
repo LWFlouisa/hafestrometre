@@ -1,5 +1,5 @@
 ## Hafestra as a future romance language.
-Hafestra is a future romance language descended from French and Japanese, initially from the code switching between French and Japanese words, until eventually new words starting being invented. Slowly the original French and Japanese words were forgotten, leaving behind both the mother languages spoken only in France and japan.
+Hafestra is a future romance language descended from French and Japanese, initially from the code switching between French and Japanese words, until eventually new words starting being invented. Slowly the original French and Japanese words were forgotten, leaving behind both the mother languages spoken only in France and japan. Eventually Iroquis and other native American words started being introduced as well.
 
 ### Alphabet
 <pre>
