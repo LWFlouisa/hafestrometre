@@ -15,7 +15,7 @@ size_limit.times do
   classify = a.classify(*b)
 
   label = classify[0]
-  probability = 100 - classify[1]
+  probability = classify[1]
 
   puts "<< #{label} has a likelihood of #{probability} percent."
 
