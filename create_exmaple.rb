@@ -64,7 +64,7 @@ statement = active_greeting        + " " +
             active_request         + " " +
             active_gender_item     + " " +
             active_for_from        + " " +
-            active_gender_location + active_punctuation
+            active_gender_location
 
 ## Append training example to file.
 open("data/training/example.txt", "w") { |f|
