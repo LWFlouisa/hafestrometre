@@ -203,7 +203,6 @@ A tool for classify each Hafestran word individually. Conjunctions are out of da
   a.train(:conjunction,              "ini",           "conjunction")
   a.train(:conjunction,              "uta",           "conjunction")
   
-  # Personal Pronouns
   a.train(:personal_pronouns,         "tu",      "personal_pronouns")
   a.train(:personal_pronouns,     "viyosa",      "personal_pronouns")
   a.train(:personal_pronouns,       "niyo",      "personal_pronouns")
@@ -211,6 +210,39 @@ A tool for classify each Hafestran word individually. Conjunctions are out of da
   a.train(:personal_pronouns,        "eye",      "personal_pronouns")
   a.train(:personal_pronouns,      "iyese",      "personal_pronouns")
   a.train(:personal_pronouns,      "eyese",      "personal_pronouns")
+
+  ## Greeting
+  a.train(:greeting, "Giodemieru", "word")
+  a.train(:greeting, "Giodeniti",  "word")
+  a.train(:greeting, "Giodevini",  "word")
+
+  ## Agent
+  a.train(:agent, "Sarah", "word")
+  a.train(:agent, "John",  "word")
+  a.train(:agent, "Mary",  "word")
+  a.train(:agent, "Holly", "word")
+  a.train(:agent, "Cora",  "word")
+
+  ## Request
+  a.train(:will,      "ewieru", "word")
+  a.train(:can,       "esiani", "word")
+  a.train(:get,         "geti", "word")
+  a.train(:obtain, "obitiniti", "word")
+
+  ## Location
+  a.train(:location,     "driveway", "word"); a.train(:location,       "garage", "word");
+  a.train(:location,     "backyard", "word"); a.train(:location,    "frontyard", "word");
+  a.train(:location,      "doorway", "word"); a.train(:location,  "living-room", "word");
+  a.train(:location,      "hallway", "word"); a.train(:location,      "bedroom", "word");
+  a.train(:location,     "bathroom", "word"); a.train(:location,      "kitchen", "word");
+  a.train(:location,       "closet", "word"); a.train(:location,       "cavern", "word");
+  a.train(:location,        "house", "word"); a.train(:location,         "road", "word");
+  a.train(:location, "neighborhood", "word"); a.train(:location,       "office", "word");
+  a.train(:location,       "church", "word"); a.train(:location,      "grocery", "word");
+  a.train(:location,       "arcade", "word"); a.train(:location,   "restaurant", "word");
+  a.train(:location,         "cafe", "word"); a.train(:location,       "market", "word");
+  a.train(:location,    "drugstore", "word"); a.train(:location,  "supermarket", "word");
+  a.train(:location,       "school", "word");
 ~~~
 
 ## Other Developments
