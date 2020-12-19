@@ -185,6 +185,17 @@ A tool for classify each Hafestran word individually. Conjunctions are out of da
   a.train(:vegetables, 'tea',        'vegetables')
   a.train(:vegetables, 'siofee',     'vegetables')
   a.train(:vegetables, 'eribos',     'vegetables')
+  
+  # Train the furniture.
+  a.train(:furniture, "efieruniteru", "furniture")
+  a.train(:furniture, "eseheru",          "chair")
+  a.train(:furniture, "esofa",             "sofa")
+  a.train(:furniture, "esouxa",           "couch")
+  a.train(:furniture, "etaeru",           "table")
+  a.train(:furniture, "esibini",        "cabinet")
+  a.train(:furniture, "ediesiki",          "desk")
+  a.train(:furniture, "esehefe",          "shelf")
+  a.train(:furniture, "eberu",              "bed")
 
   # Train the conjunctions.
   a.train(:conjunction,           "pioyeh",           "conjunction")
